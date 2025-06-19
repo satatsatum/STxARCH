@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>STxARCH </title>
+    <title>STxARCH</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -19,7 +19,7 @@
     <style>
       body {
         font-family: "Poppins", "Noto Sans Thai", sans-serif;
-        scroll-behavior: smooth; /* ทำให้การเลื่อนหน้าเป็นไปอย่างนุ่มนวลเมื่อคลิกลิงก์ */
+        scroll-behavior: smooth;
       }
 
       /* กำหนดขนาดสูงสุดของโลโก้ใน Navbar */
@@ -28,12 +28,7 @@
         width: auto; /* รักษาสัดส่วน */
         display: block; /* แก้ไขปัญหาช่องว่างใต้รูปภาพในบางเบราว์เซอร์ */
       }
-<img
-  src="images/S__2146307.png" 
-  alt="STxARCH - Shaping Space, Defining Future"
-  class="header-logo"
-/>
-      }
+
       /* ปรับขนาดโลโก้สำหรับหน้าจอมือถือ (น้อยกว่า 768px) */
       @media (max-width: 768px) {
         .header-logo {
@@ -89,27 +84,42 @@
       class="py-16 px-6 md:px-20 bg-gray-100"
     >
       <h2 class="uppercase text-3xl font-bold mb-8 text-gray-800">โปรเจคล่าสุด</h2>
-      <ul class="list-disc list-inside space-y-4 text-lg text-gray-700">
-        <li>
-          <a
-            href="https://www.canva.com/design/DAE8nFEmQlg/Q0ztN-a5ba0MRHQzNQMfRg/view"
-            target="_blank"
-            class="text-blue-600 hover:underline hover:text-blue-800 transition-colors"
-            >บ้านพักตากอากาศโมเดิร์น</a
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <a 
+          href="project_modern_house.html" class="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+        >
+          <img 
+            src="images/baan_modern.jpg" 
+            alt="บ้านพักตากอากาศโมเดิร์น" 
+            class="w-full h-48 object-cover"
           >
-        </li>
-        <li>
-          <a
-            href="https://www.canva.com/design/DAE8nFEmQlg/8uPcAV0o65PBAhxEY3bvvQ/edit"
-            target="_blank"
-            class="text-blue-600 hover:underline hover:text-blue-800 transition-colors"
-            >คาเฟ่มินิมอล ขาวดำ</a
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2 text-gray-800">บ้านพักตากอากาศโมเดิร์น</h3>
+            <p class="text-gray-600 text-sm">การออกแบบที่เน้นความเรียบง่าย ผสมผสานกับธรรมชาติรอบข้างเพื่อการพักผ่อนอย่างแท้จริง.</p>
+          </div>
+        </a>
+
+        <a 
+          href="project_cafe.html" class="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+        >
+          <img 
+            src="images/cafe_minimal.jpg" 
+            alt="คาเฟ่มินิมอล ขาวดำ" 
+            class="w-full h-48 object-cover"
           >
-        </li>
-        </ul>
-      <div class="mt-8 text-center">
-        <a
-          href="projects.html"
+          <div class="p-6">
+            <h3 class="font-bold text-xl mb-2 text-gray-800">คาเฟ่มินิมอล ขาวดำ</h3>
+            <p class="text-gray-600 text-sm">คาเฟ่ที่ออกแบบด้วยโทนสีขาวดำ สะท้อนความสงบและทันสมัย เหมาะสำหรับการพักผ่อนและทำงาน.</p>
+          </div>
+        </a>
+
+        </div>
+
+      <div class="mt-12 text-center">
+        <a 
+          href="projects.html" 
           class="inline-block bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors text-lg font-semibold"
         >
           ดูโปรเจคทั้งหมด
@@ -120,7 +130,7 @@
     <section id="about" class="py-16 px-6 md:px-20 bg-white text-black">
       <h2 class="uppercase text-3xl font-bold mb-4 text-gray-800">เกี่ยวกับฉัน</h2>
       <p class="text-lg max-w-3xl leading-relaxed text-gray-700">
-        สวัสดีครับ!! ผมกอล์ฟ นักออกแบบสถาปัตยกรรมที่หลงใหลในความเรียบง่าย
+        สวัสดีครับ ผมคือ Golf นักออกแบบสถาปัตยกรรมที่หลงใหลในความเรียบง่าย
         งานของผมผสมผสานฟังก์ชันและความงามอย่างลงตัว ผมเชื่อว่าการออกแบบที่ดี
         คือการสร้างสรรค์พื้นที่ที่ตอบโจทย์การใช้งาน พร้อมกับสะท้อนตัวตนและไลฟ์สไตล์ของผู้อยู่อาศัย
         หรือผู้ใช้งานได้อย่างลงตัว ด้วยประสบการณ์และความมุ่งมั่น
@@ -142,8 +152,8 @@
     >
       <h2 class="uppercase text-3xl font-bold mb-4 text-white">ติดต่อ</h2>
       <p class="mb-3 text-lg opacity-80">หากมีข้อสงสัยหรือสนใจร่วมงานกับ STxARCH โปรดติดต่อเราได้ที่:</p>
-      <p class="mb-2 text-xl font-semibold">📧 satatsatum01@gmail.com</p>
-      <p class="text-xl font-semibold">📱 LINE: @satatsatun</p>
+      <p class="mb-2 text-xl font-semibold">📧 golf@example.com</p>
+      <p class="text-xl font-semibold">📱 LINE: @golfworld</p>
       <div class="mt-6 flex space-x-4">
         </div>
     </section>
