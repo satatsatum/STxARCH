@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STxARCH - บ้านพักตากอากาศโมเดิร์น</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/S__2146307.png">
+    <style>
+        body { font-family: "Poppins", "Noto Sans Thai", sans-serif; scroll-behavior: smooth; }
+        .header-logo { max-height: 40px; width: auto; display: block; }
+        @media (max-width: 768px) { .header-logo { max-height: 30px; } }
+    </style>
+</head>
+<body class="bg-white text-black">
+    <header class="fixed top-0 left-0 w-full bg-white border-b z-50 shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="block">
+                <img src="images/S__2146307.png" alt="STxARCH - Shaping Space, Defining Future" class="header-logo">
+            </a>
+            <nav class="hidden md:flex space-x-6 text-sm">
+                <a href="index.html#portfolio" class="hover:underline uppercase text-gray-700 hover:text-black transition-colors">ผลงาน</a>
+                <a href="index.html#about" class="hover:underline uppercase text-gray-700 hover:text-black transition-colors">เกี่ยวกับฉัน</a>
+                <a href="index.html#contact" class="hover:underline uppercase text-gray-700 hover:text-black transition-colors">ติดต่อ</a>
+                <a href="projects.html" class="hover:underline uppercase text-gray-700 hover:text-black transition-colors">ดูทั้งหมด</a>
+                <a href="resume.html" class="hover:underline uppercase text-gray-700 hover:text-black transition-colors">ประวัติ</a>
+            </nav>
+            <button class="md:hidden text-gray-700 hover:text-black focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <section class="min-h-screen pt-24 pb-16 px-6 md:px-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900 text-center">บ้านพักตากอากาศโมเดิร์น</h1>
+
+            <img src="images/baan_modern_large.jpg" alt="ภาพใหญ่บ้านพักตากอากาศโมเดิร์น" class="w-full h-auto rounded-lg mb-8 shadow-md">
+            <div class="text-lg text-gray-700 leading-relaxed mb-8">
+                <p class="mb-4">โปรเจคบ้านพักตากอากาศโมเดิร์นนี้ถูกออกแบบมาเพื่อการพักผ่อนอย่างแท้จริง โดยเน้นการผสมผสานความเรียบง่ายของสไตล์โมเดิร์นเข้ากับความงดงามของธรรมชาติรอบข้าง.</p>
+                <p class="mb-4">ตัวอาคารถูกจัดวางให้รับวิวทิวทัศน์ได้อย่างเต็มที่ ด้วยการใช้กระจกบานใหญ่ในหลายๆ ส่วน ทำให้แสงธรรมชาติส่องเข้ามาภายในได้อย่างทั่วถึง สร้างบรรยากาศที่โปร่งโล่งสบาย และเชื่อมโยงพื้นที่ภายในกับภายนอกได้อย่างลงตัว.</p>
+                <p>การเลือกใช้วัสดุธรรมชาติ เช่น ไม้และหิน ร่วมกับโครงสร้างเหล็กและคอนกรีต ช่วยเพิ่มมิติให้กับตัวอาคาร พร้อมทั้งสร้างความรู้สึกอบอุ่นและผ่อนคลาย. พื้นที่ใช้สอยถูกออกแบบให้มีความยืดหยุ่น สามารถปรับเปลี่ยนฟังก์ชันการใช้งานได้ตามความต้องการ.</p>
+
+                <h3 class="font-bold text-2xl mt-8 mb-4 text-gray-800">แนวคิดการออกแบบ</h3>
+                <ul class="list-disc list-inside mb-4">
+                    <li>**Minimalist Elegance:** เน้นความเรียบง่ายแต่แฝงด้วยความหรูหรา</li>
+                    <li>**Seamless Integration:** เชื่อมโยงสถาปัตยกรรมเข้ากับภูมิทัศน์ธรรมชาติ</li>
+                    <li>**Functional Living:** ออกแบบพื้นที่ใช้สอยให้ตอบโจทย์การใช้งานจริง</li>
+                    <li>**Sustainable Practices:** พิจารณาการใช้วัสดุและพลังงานอย่างยั่งยืน (หากมี)</li>
+                </ul>
+
+                <h3 class="font-bold text-2xl mt-8 mb-4 text-gray-800">รายละเอียดโครงการ</h3>
+                <p class="mb-2">**ประเภท:** บ้านพักตากอากาศ</p>
+                <p class="mb-2">**สถานที่:** [ระบุสถานที่ เช่น เชียงใหม่, เขาใหญ่]</p>
+                <p class="mb-2">**พื้นที่ใช้สอย:** [ระบุขนาด เช่น 250 ตร.ม.]</p>
+                <p class="mb-2">**ปีที่สร้าง:** [ระบุปี]</p>
+
+                </div>
+
+            <div class="text-center mt-10">
+                <a href="index.html#portfolio" class="inline-block bg-gray-200 text-gray-800 px-8 py-3 rounded-full hover:bg-gray-300 transition-colors text-lg font-semibold">
+                    &larr; กลับสู่ผลงาน
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-sm py-6 bg-black text-white opacity-70">
+        © 2025 STxARCH. All rights reserved.
+    </footer>
+</body>
+</html>
